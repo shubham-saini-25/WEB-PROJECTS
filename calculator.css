@@ -1,0 +1,52 @@
+*{
+	margin: 5px;
+	padding: 5px;
+}
+h1{
+	font-weight: bold;
+	font-size: 80px;
+	background-color: yellow;
+	border: solid;
+	border-width: 5px;
+}
+body{
+	background-color: lightgreen;
+	display: table;
+}
+form{
+	background-color: pink;
+	border: solid;
+	border-width: 5px;
+	margin-left: 300px;
+	margin-top: 30px;
+}
+.border{
+	background-color: lightblue;
+	border: solid;
+	border-width: 5px;
+	margin-left: 220px;
+	margin-top: 20px;
+	display: table;
+	position: relative;
+}
+.display{
+	display: table;
+	margin-left: 6px;
+	margin-top: 5px;
+	border: solid;
+	border-width: 5px;
+}
+.Style{
+	background-color: lime;
+	display: table;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: solid;
+	border-width: 5px;
+}
+input{
+	color: black;
+	background-color: gold ;
+	border: solid;
+	border-width: 3.5px;
+}
