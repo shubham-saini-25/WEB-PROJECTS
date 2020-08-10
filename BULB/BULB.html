@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY BULB</title>
+	<style type="text/css">
+		h1{
+			font-size: 50px;
+			margin: 5px 140px;
+		}
+		img{
+			width: 250px;
+			margin: 20px 500px;
+		}
+		.On{
+			background-color: green;
+			border: 2px solid black;
+			margin: 50px 500px;
+			font-size: 40px;
+			width: 100px;
+			height: 50px;
+			color: white;
+			z-index: 2;
+		}
+		.Off{
+			background-color: maroon;
+			border: 2px solid black;
+			margin: 50px -450px;
+			font-size: 40px;
+			width: 100px;
+			height: 50px;
+			color: white;
+			z-index: 2;
+		}
+		.On:hover{
+			background-color: lime;
+			color: blue;
+		}
+		.Off:hover{
+			background-color: red;
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<h1>Click on the Button to Turn the Bulb ON or OFF</h1>
+	<img id = "Bulb" src="OFF.JFIF">
+	<input type="button" value="ON" class ="On" onmousemove = "LightOn()">
+	<input type="button" value="OFF" class ="Off" onmousemove = "LightOff()">
+<script>
+	function LightOn(){document.getElementById("Bulb").src = "ON.JFIF" ;}
+	function LightOff(){document.getElementById("Bulb").src = "OFF.JFIF" ;}
+</script>
+</body>
+</html>
