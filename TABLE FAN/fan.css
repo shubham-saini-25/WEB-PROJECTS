@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#fan{
+	margin-left: 60px;
+	margin-top: -15px;
+}
+.A{
+	background-color: yellow;
+	height: 50px;
+	width: 400px;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	margin-left: 420px;
+	margin-top: 250px;
+	border: 2px solid red;
+	position: absolute;
+	z-index: 7;
+	animation: Rot 20s linear infinite;
+}
+.B{
+	background-color: yellow;
+	height: 400px;
+	width: 50px;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	margin-left: 600px;
+	margin-top: 80px;
+	border: 2px solid red;
+	position: absolute;
+	z-index: 6;
+	animation: Rot 20s linear infinite;
+}
+@keyframes Rot{
+	100%{
+		transform: rotate(5000deg);
+	}
+}
+.C{
+	border-radius: 100%;
+	padding: 250px 250px;
+	position: absolute;
+	margin-left: 370px;
+	margin-top: 20px;
+	background-color: skyblue;
+	border: 8px solid black;
+	z-index: 5;
+}
+.D{
+	border-radius: 100%;
+	padding: 200px 200px;
+	position: absolute;
+	margin-left: 420px;
+	margin-top: 70px;
+	border: 5px solid black;
+	z-index: 8;
+}
+.E{
+	border-radius: 100%;
+	padding: 150px 150px;
+	position: absolute;
+	margin-left: 470px;
+	margin-top: 120px;
+	border: 5px solid black;
+	z-index: 11;
+}
+.F{
+	border-radius: 100%;
+	padding: 100px 100px;
+	position: absolute;
+	margin-left: 520px;
+	margin-top: 170px;
+	border: 5px solid black;
+	z-index: 14;
+	
+}
+.G{
+	border-radius: 100%;
+	padding: 50px 50px;
+	position: absolute;
+	margin-left: 570px;
+	margin-top: 220px;
+	border: 5px solid black;
+	z-index: 17;
+}
+.H{
+	border-radius: 100%;
+	padding: 5px 5px;
+	background-color: black;
+	position: absolute;
+	margin-left: 615px;
+	margin-top: 265px;
+	border: 5px solid black;
+	z-index: 20;
+}
+.I{
+	width: 50px;
+	height: 35px;
+	margin-left: 600px;
+	margin-top: 530px;
+	position: absolute;
+	background-color: black;
+}
+.J{
+	width: 200px;
+	height: 60px;
+	background-color: blue;
+	position: absolute;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	margin-left: 520px;
+	margin-top: 565px;
+	border: 5px solid black;
+}
