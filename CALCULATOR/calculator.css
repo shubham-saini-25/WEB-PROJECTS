@@ -1,0 +1,51 @@
+*{
+	margin: 5px;
+	padding: 5px;
+}
+h1{
+	background-color: yellow;
+	border-width: 5px;
+	font-weight: bold;
+	font-size: 80px;
+	border: solid;
+}
+body{
+	background-color: lightgreen;
+	display: table;
+}
+form{
+	background-color: pink;
+	margin-left: 300px;
+	border-width: 5px;
+	margin-top: 10px;
+	border: 5px solid;
+}
+.border{
+	background-color: lightblue;
+	margin-left: 225px;
+	border: 5px solid;
+	margin-top: 20px;
+	display: table;
+}
+.display{
+	border: 5px solid;
+	margin-left: 12px;
+	margin-top: 5px;
+	display: table;
+}
+.Style{
+	background-color: lime;
+	margin-left: 15px;
+	border: 5px solid;
+	margin-top: 15px;
+	display: table;
+}
+input{
+	background-color: gold ;
+	border: 3px solid;
+	font-weight: bold;
+	font-size: 20px;
+	outline: none;
+	color: black;
+	box-shadow: 2px 2px 3px ;
+}
