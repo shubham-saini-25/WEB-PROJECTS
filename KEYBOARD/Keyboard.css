@@ -1,0 +1,104 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: peachpuff;
+}
+h3{
+	margin-left: 490px;
+	font-size: 20px;
+	color: darkblue;
+}
+.Text{
+	font-family: Cambria Math;
+	background-color: black;
+	border: 5px solid grey;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	margin: 10px 350px;
+	font-weight: bold;
+	font-size: 25px; 
+	display: flex;
+	color: white;
+	height: 30vh;
+	width: 50%;
+}
+.Keyboard,kbd{
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+}
+.Keyboard{
+		background: darkslategray;
+		box-shadow: 2px 4px grey;
+		padding: 2px 2px 4px;
+		margin: 14px 80px;
+		width: 1200px;
+}
+kbd{
+	background-color: lightblue;
+	box-shadow: 2px 4px 0 grey;
+	font-family: Cambria Math;
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+	height: 50px;
+	margin: 5px;
+	flex: 1;
+}
+.Row-1{
+	display: flex;
+	width: 100%;
+}
+.Row-2{
+	display: flex;
+	width: 100%;
+}
+.Row-3{
+	display: flex;
+	width: 100%;
+}
+.Row-4{
+	display: flex;
+	width: 100%;
+}
+.Row-5{
+	display: flex;
+	width: 100%;
+}
+.Row-6{
+	display: flex;
+	width: 100%;
+}
+img{
+	border-radius: 10px;
+	margin-left: -1px;
+	height: 50px;
+	width: 65px;
+}
+.Size-X {
+	flex: 2;
+}
+.Size-2X{
+	flex: 3;
+}
+.Spacebar {
+	flex: 7;
+}
+.operationKey{
+	text-transform: none !important;
+}
+.pressed {
+	background: greenyellow;
+    position: relative;
+    box-shadow: none;
+    top: 5px;
+}
+.uppercase kbd{
+	text-transform: uppercase;
+}
