@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: steelblue;
+	text-align: center;
+}
+h1{
+	letter-spacing: 2px;
+	font-family: arial;
+	margin: 20px 0px;
+	color: darkblue;
+}
+.Page{
+	background: transparent;
+	border-radius: 20px;
+	margin: 60px 450px;
+	position: fixed;
+	height: 500px;
+	width: 450px;
+	box-shadow: 2px 2px 5px #483D8B,
+	-1px -1px 7px #B0E0E6;
+}
+.First{
+	text-transform: uppercase;
+	background: transparent;
+	border-radius: 20px;
+	margin: 5px -210px;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	font-size: 20px;
+	color: #4B0082;
+	outline: none;
+	border: none;
+	width: 200px;
+	height: 45px;
+	box-shadow: inset 2px 2px 5px #483D8B,
+	        inset -1px -1px 5px lightgray;
+}
+.Last{
+	text-transform: uppercase;
+	background: transparent;
+	border-radius: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin: 5px 10px;
+	font-size: 20px;
+	position: fixed;
+	color: #4B0082;
+	outline: none;
+	border: none;
+	width: 200px;
+	height: 45px;
+	box-shadow: inset 2px 2px 5px #483D8B,
+	        inset -1px -1px 5px lightgray;
+}
+.Email{
+	background: transparent;
+	border-radius: 20px;
+	margin: 80px -200px;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	font-size: 20px;
+	color: #4B0082;
+	outline: none;
+	border: none;
+	width: 400px;
+	height: 45px;
+	box-shadow: inset 2px 2px 5px #483D8B,
+	        inset -1px -1px 5px lightgray;
+}
+.Mobile{
+	text-transform: uppercase;
+	background: transparent;
+	margin: 150px -200px;
+	border-radius: 20px;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	font-size: 20px;
+	color: #4B0082;
+	outline: none;
+	border: none;
+	width: 400px;
+	height: 45px;
+	box-shadow: inset 2px 2px 5px #483D8B,
+	        inset -1px -1px 5px lightgray;
+}
+.Pswrd{
+	text-transform: uppercase;
+	background: transparent;
+	margin: 220px -200px;
+	border-radius: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	position: fixed;
+	color: #4B0082;
+	outline: none;
+	border: none;
+	width: 400px;
+	height: 45px;
+	box-shadow: inset 2px 2px 5px #483D8B,
+	        inset -1px -1px 5px lightgray;
+}
+.Cpswrd{
+	text-transform: uppercase;
+	background: transparent;
+	margin: 290px -200px;
+	border-radius: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	position: fixed;
+	color: #4B0082;
+	outline: none;
+	border: none;
+	width: 400px;
+	height: 45px;
+	box-shadow: inset 2px 2px 5px #483D8B,
+	        inset -1px -1px 5px lightgray;
+}
+.Btn{
+	background: transparent;
+	border-radius: 20px;
+	margin: 360px -80px;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	font-size: 20px;
+	color: darkblue;
+	outline: none;
+	border: none;
+	width: 150px;
+	height: 45px;
+	box-shadow: 2px 2px 5px #483D8B,
+	         -1px -1px 5px lightgray;
+}
+input::placeholder{
+	color: darkgray;
+	text-transform: capitalize;
+}
