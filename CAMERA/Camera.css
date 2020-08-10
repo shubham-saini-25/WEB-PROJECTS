@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	justify-content: center;
+	align-items: center;
+	background: #333;
+	display: flex;
+}
+#Frame{
+	background: linear-gradient(to right,#00ccff 50%,#ff66ff 51%);
+	box-shadow: 5px 13px 15px , -5px 0px 15px;
+	border-radius: 50px;
+	margin-left: -350px;
+	margin-top: 600px;
+	position: fixed;
+	height: 400px;
+	width: 450px;
+} 
+.Strip{
+	border-bottom: 10px solid #228B22;
+	border-top: 10px solid #228B22; 
+	background: #3CB371;
+	margin: 85px 0px;
+	height: 200px;
+	width: 450px;
+}
+.Lens1{
+	border: 20px solid #B22222;
+	margin: -315px 105px;
+	border-radius: 100%;
+	background: #080808;
+	height: 200px;
+	width: 200px;
+}
+.Lens2{
+	border: 10px solid #454545;
+	border-radius: 100%;
+	background: #303030;
+	margin: 35px 35px;
+	height: 110px;
+	width: 110px;
+}
+.Lens3{
+	border: 15px solid #222222;
+	border-radius: 100%;
+	background: #050505;
+	margin: 15px 15px;
+	height: 50px;
+	width: 50px;
+}
+.Lens4{
+	border: 5px solid silver;
+	border-radius: 100%;
+	background: silver;
+	margin: 20px 20px;
+	height: 1px;
+	width: 1px;
+}
+.Led{
+	border-radius: 100%;
+	margin-left: 65px;
+	margin-top: 25px; 
+	background: red;
+	height: 35px;
+	width: 35px;
+	animation: blink 0.7s linear infinite;
+}
+@keyframes blink{
+	0%{
+		background: red; 
+	}
+	50%{
+		background: orangered;
+	}
+	75%{
+		background: firebrick;
+	}
+	100%{
+		background: red;
+	}
+}
+.Button{
+	box-shadow: 0px 4px 0px gray;
+	border-radius: 50px;
+	margin: -40px 300px;
+	background: #330066;
+	width: 100px;
+	height: 45px;
+}
+.Button:hover{
+	box-shadow: 0px 1px 0px gray;
+	margin-top: -38px;
+	cursor: pointer;
+}
+#Border{
+	box-shadow: 11px 13px 15px , -1px 0px 15px;
+	transform: translate(3px);
+	border-radius: 50px; 
+	background: #FFDAB9;
+	margin-left: 555px;
+	margin-top: 600px;
+	position: fixed;
+	display: none;
+	height: 400px;
+	width: 450px;
+}
+#Image{
+	border: 10px solid darkblue;
+	border-radius: 100%;
+	margin: 20px 90px;
+	height: 250px;
+	width: 250px;
+}
+img{
+	border-radius: 100%;
+	height: 251px;
+	width: 250px;
+}
+h1{
+	font-family: sans-serif;
+	margin-left: 50px;
+	font-size: 45px;
+	color: blue;
+}
