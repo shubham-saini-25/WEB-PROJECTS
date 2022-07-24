@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <form action="./data.php" method="post">
+        <div class="main">
+            <ul>
+                <img src="./student.png" style="margin-top: 20px">
+                <li>
+                    <label>Name :&emsp;</label>
+                    <input type="text" class="name" id="name" name="name">
+                </li>
+                <li>
+                    <label class="crse">Course :</label>
+                    <select class="course" id="cours" name="course" oninput="courses()">
+                        <option value="B.Tech.">B.Tech.</option>
+                        <option value="B.Sc.">B.Sc.</option>
+                        <option value="B.Com.">B.Com.</option>
+                        <option value="BCA">BCA</option>
+                        <option value="B.A.">B.A.</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Branch :&ensp;</label>
+                    <select class="branch" id="brnch" name="branch" oninput="courses()">
+                        <option value="" id="1">Computer Science</option>
+                        <option value="" id="2">Information Technology</option>
+                        <option value="" id="3">Electrical Engineering</option>
+                        <option value="" id="4">Mechanical Engineering</option>
+                        <option value="" id="5">Electonics & Communications</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Address :</label>
+                    <input type="text" class="address" name="address">
+                </li>
+                <li>
+                    <label>Email :&ensp;&ensp;&ensp;</label>
+                    <input type="email" class="email" name="email">
+                </li>
+                <li>
+                    <label>Phone :&ensp;&ensp;</label>
+                    <input type="tel" class="phone" id="phone" name="phone"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                </li>
+                <button type="submit" name="submit">Submit</button>
+            </ul>
+        </div>
+    </form>
+</body>
+
+</html>
